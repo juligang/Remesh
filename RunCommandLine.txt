@@ -1,0 +1,10 @@
+=========================================================================================
+Sphere 1 frame increase to 5000 vertices 5 iterations
+=========================================================================================
+bin/Retile -i 5 -o Simulation/Sphere_5000.obj -v 5000 Simulation/sphere.obj
+
+
+=========================================================================================
+Sphere 1 frame with factor 0.25 (reduce to 25% of vertices) 5 iterations
+=========================================================================================
+bin/Retile -i 5 -o Simulation/Sphere_Factor25.obj -f 0.25 Simulation/sphere.obj

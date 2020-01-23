@@ -1,0 +1,40 @@
+DBSimulation 4 frames with factor 0.25 and 1 iterarions
+=========================================================================================
+./runRetile.sh bin/Retile Simulation/DBSimulation Simulation/DBSimulationLowres_5Iter_  4 5 0.25 > Factor-0.25_Iteration-4.log
+
+=========================================================================================
+DBSimulation 240 frames with factor 0.25 and 1 iterarions
+=========================================================================================
+./runRetile.sh bin/Retile /prod/r_d/jguzman/examples/Texturing/GregTurkretile/Retiletest/Retile_C/Simulation/DBSimulation /prod/r_d/jguzman/examples/Texturing/GregTurkretile/RetileNew/Retile_C/Simulation/Factor-0.25_Iteration-1/DBSimulationLowres_1Iter_ 240 1 0.25 > Factor-0.25_Iteration-1.log
+
+=========================================================================================
+DBSimulation 240 frames with factor 0.25 and 3 iterarions
+=========================================================================================
+./runRetile.sh bin/Retile /prod/r_d/jguzman/examples/Texturing/GregTurkretile/Retiletest/Retile_C/Simulation/DBSimulation /prod/r_d/jguzman/examples/Texturing/GregTurkretile/RetileNew/Retile_C/Simulation/Factor-0.25_Iteration-3/DBSimulationLowres_3Iter_ 240 3 0.25 > Factor-0.25_Iteration-3.log
+
+=========================================================================================
+DBSimulation 240 frames with factor 0.25 and 5 iterarions
+=========================================================================================
+./runRetile.sh bin/Retile /prod/r_d/jguzman/examples/Texturing/GregTurkretile/Retiletest/Retile_C/Simulation/DBSimulation /prod/r_d/jguzman/examples/Texturing/GregTurkretile/RetileNew/Retile_C/Simulation/Factor-0.25_Iteration-5/DBSimulationLowres_5Iter_ 240 5 0.25 > Factor-0.25_Iteration-5.log
+
+=========================================================================================
+DBSimulation 240 frames with factor 0.25 and 10 iterarions
+=========================================================================================
+./runRetile.sh bin/Retile /prod/r_d/jguzman/examples/Texturing/GregTurkretile/Retiletest/Retile_C/Simulation/DBSimulation /prod/r_d/jguzman/examples/Texturing/GregTurkretile/RetileNew/Retile_C/Simulation/Factor-0.25_Iteration-10/DBSimulationLowres_10Iter_ 240 10 0.25 > Factor-0.25_Iteration-10.log
+
+=========================================================================================
+DBSimulation 240 frames with factor 0.25 and 20 iterarions
+=========================================================================================
+./runRetile.sh bin/Retile /prod/r_d/jguzman/examples/Texturing/GregTurkretile/Retiletest/Retile_C/Simulation/DBSimulation /prod/r_d/jguzman/examples/Texturing/GregTurkretile/RetileNew/Retile_C/Simulation/Factor-0.25_Iteration-20/DBSimulationLowres_20Iter_ 240 20 0.25 > Factor-0.25_Iteration-20.log
+
+=========================================================================================
+DBSimulation 240 frames with factor 0.25 and 50 iterarions
+=========================================================================================
+./runRetile.sh bin/Retile /prod/r_d/jguzman/examples/Texturing/GregTurkretile/Retiletest/Retile_C/Simulation/DBSimulation /prod/r_d/jguzman/examples/Texturing/GregTurkretile/RetileNew/Retile_C/Simulation/Factor-0.25_Iteration-50/DBSimulationLowres_50Iter_ 240 50 0.25 > Factor-0.25_Iteration-50.log
+
+
+=========================================================================================
+DBSimulation 240 frames with factor 4 and 5 iterarions
+=========================================================================================
+./runRetile.sh bin/Retile /prod/r_d/jguzman/examples/Texturing/GregTurkretile/Retiletest/Retile_C/Simulation/DBSimulation /prod/r_d/jguzman/examples/Texturing/GregTurkretile/RetileNew/Retile_C/Simulation/Factor-4_Iteration-4/DBSimulationHighRes_5Iter_ 240 5 4 > Factor-4_Iteration-5.log
+
