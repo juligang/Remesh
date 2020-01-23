@@ -1116,7 +1116,7 @@ MeshEx::Edge *MeshEx::Triangle::getEdge( Vertex *vertex1, Vertex *vertex2 )
 	for( int i=0; i<3; ++i )
 		if( e[i]->contains( vertex1, vertex2 ) )
 			return e[i];
-	return false;
+	//return false;
 }
 
 //
